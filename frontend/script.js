@@ -3,8 +3,7 @@ const statusEl = document.getElementById('status');
 const phoneInput = document.getElementById('phone');
 const amountInput = document.getElementById('amount');
 
-const API_URL = 'http://localhost:5000'; // we'll change this after deploying
-
+const API_URL =  'https://mpesa-stk-push-74z5.onrender.com';
 function formatPhone(raw) {
   let p = raw.trim();
   if (p.startsWith('0')) p = '254' + p.slice(1);
