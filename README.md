@@ -1,4 +1,5 @@
 # M-Pesa STK Push Web App
+![App screenshot](screenshots/app.png)
 
 A full-stack web application that lets users pay via M-Pesa STK Push directly from a browser — enter a phone number and amount, receive a real-time payment prompt, and see the result instantly.
 
